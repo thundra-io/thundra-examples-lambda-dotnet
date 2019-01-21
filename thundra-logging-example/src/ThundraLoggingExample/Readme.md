@@ -31,7 +31,7 @@ Make the following configurations in the `src/ThundraLoggingExample` directory, 
 Deploy the .Net Lambda function using the [AWS dotnet tools](https://www.nuget.org/packages/Amazon.Lambda.Tools/) with the command below:
 
 ```bash
-dotnet lambda deploy-function ThundraExample
+dotnet lambda deploy-function LoggingFunction
 ```
 
 #### 3 - Invoke
@@ -44,6 +44,4 @@ dotnet lambda invoke-function LoggingFunction --payload "{\"id\":\"3\"}"
 
 #### 4 - Enjoy your flight with Thundra!
 
-Visit Thundra to observe your metrics. It might take 1-2 minutes to be visible.
-
-_You may also have a test project depending on the options selected._
+Visit [Thundra](https://www.thundra.io/) to observe your metrics. It might take 1-2 minutes to be visible.
