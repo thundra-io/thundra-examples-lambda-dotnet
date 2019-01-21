@@ -1,0 +1,13 @@
+.idea/
+
+hello-thundra/.serverless/
+hello-thundra/src/hello-thundra/bin
+hello-thundra/src/hello-thundra/obj
+hello-thundra/test/hello-thundra.Tests/bin
+hello-thundra/test/hello-thundra.Tests/obj
+
+Thundra-Logging-Example/src/ThundraLoggingExample/obj
+Thundra-Logging-Example/src/ThundraLoggingExample/bin
+
+
+.DS_Store
