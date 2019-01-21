@@ -6,8 +6,9 @@ hello-thundra/src/hello-thundra/obj
 hello-thundra/test/hello-thundra.Tests/bin
 hello-thundra/test/hello-thundra.Tests/obj
 
-Thundra-Logging-Example/src/ThundraLoggingExample/obj
-Thundra-Logging-Example/src/ThundraLoggingExample/bin
-
+thundra-logging-example/src/ThundraLoggingExample/obj
+thundra-logging-example/src/ThundraLoggingExample/bin
+thundra-logging-example/test/ThundraLoggingExample.Tests/obj
+thundra-logging-example/test/ThundraLoggingExample.Tests/bin
 
 .DS_Store

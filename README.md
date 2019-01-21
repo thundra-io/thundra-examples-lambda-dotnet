@@ -24,4 +24,4 @@ Simple logging example to get started with Thundra Logs.
 
 You will learn how to observe the invocation metrics, especally logs of lambda functions with Thundra using **sample logs**.
 
-[Go to example](./hello-thundra)
+[Go to example](./thundra-logging-example)
