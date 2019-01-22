@@ -8,7 +8,7 @@ You will learn how to observe the invocation metrics of lambda functions with Th
 
 #### 1 - Configuration
 
-Make the following configurations in the `src/ThundraSample` directory, to the 'aws-lambda-tools-defaults.json' file
+Make the following configurations in the `src/hello-thundra` directory, to the 'aws-lambda-tools-defaults.json' file
 
 - Add Api Key
   To the `environment-variables` tag.
