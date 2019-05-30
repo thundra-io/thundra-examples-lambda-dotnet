@@ -9,9 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Amazon.Lambda.Core" Version="1.0.0" />
     <PackageReference Include="Amazon.Lambda.Serialization.Json" Version="1.4.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="/Users/yusuf/Documents/Thundra/thundra-agent-lambda-dotnet/src/Thundra.Agent.Lambda.csproj" />
+    <PackageReference Include="Thundra.Agent.Lambda" Version="1.1.0" />
   </ItemGroup>
 
 </Project>
