@@ -11,4 +11,7 @@ thundra-logging-example/src/ThundraLoggingExample/bin
 thundra-logging-example/test/ThundraLoggingExample.Tests/obj
 thundra-logging-example/test/ThundraLoggingExample.Tests/bin
 
+thundra-sampling-example/src/ThundraSamplingExample/obj
+thundra-sampling-example/src/ThundraSamplingExample/bin
+
 .DS_Store
