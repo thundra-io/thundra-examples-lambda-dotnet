@@ -12,10 +12,9 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+
+    <ProjectReference Include="..\..\src\hello-thundra\hello-thundra.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\hello_thundra\hello_thundra.csproj" />
-  </ItemGroup>
 
 </Project>
