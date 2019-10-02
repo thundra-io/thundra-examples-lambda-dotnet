@@ -1,6 +1,6 @@
-# Hello Thundra
+# Hello Thundra Proxy
 
-This is a simple example to get started with Thundra.
+This is a simple example to get started with Thundra. You can use ThundraProxy to redirect the request to the real handler instead of wrapping the function with [LambdaRequestHandler](https://github.com/thundra-io/thundra-examples-lambda-dotnet/tree/master/hello-thundra). With ThundraProxy, you only change your deploy files(serverless.yml, aws-lambda-tools-defaults.json, template.yml etc..) not the code. 
 
 You will learn how to observe the invocation metrics of lambda functions with Thundra using **default settings**.
 
@@ -12,6 +12,12 @@ Make the following configurations in the `src/hello-thundra` directory, to the '
 
 - Add Api Key
   To the `environment-variables` tag.
+  
+- Give ThundraProxy as handler
+  `Thundra.Agent.Lambda::Thundra.Agent.Lambda.Core.ThundraProxy::Handle`
+  
+- Add your handler to the environment variables
+  `thundra_agent_lambda_handler` = `Path::To::MyHandler`
 
 - Add your region
   Add your preferred AWS region to the `region` tag.
